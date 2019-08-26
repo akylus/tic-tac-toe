@@ -153,7 +153,7 @@ board = {
 
 print('Choose: X or O?')
 while(1):
-    player = input()
+    player = input().upper()
     if(player != 'X' and player != 'O'):
         print('Enter X or O only! Try Again.')
     else:
