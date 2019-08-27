@@ -28,9 +28,9 @@ def winChecker(board):
     elif(
         board['top-L'] + board['top-M'] + board['top-R'] == 'OOO' or
         #----------------------------------------------------------
-        board['mid-L'] + board['mid-M'] + board['mid-R'] == 'OOO' or
-        #----------------------------------------------------------
         board['low-L'] + board['low-M'] + board['low-R'] == 'OOO' or
+        #----------------------------------------------------------
+        board['mid-L'] + board['mid-M'] + board['mid-R'] == 'OOO' or
         #----------------------------------------------------------
         board['top-L'] + board['mid-L'] + board['low-L'] == 'OOO' or
         #----------------------------------------------------------
