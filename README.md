@@ -9,7 +9,7 @@ Game works like this. Below is the code you need to put for that corresponding b
 ```
 top-L | top-M | top-R
 ---------------------
-mid-L| mid-M | mid-R
+mid-L | mid-M | mid-R
 ---------------------
 low-L | low-M | low-R
 ```
