@@ -47,6 +47,7 @@ while(1):
     print("Enter move:")
     while(1):
         temp = input()
+        temp = temp[:4] + temp[-1].capitalize()
         if(temp not in ipvalues):
             print('Enter valid input! Try Again.')
         elif(board[temp] != ' '):
