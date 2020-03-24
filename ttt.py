@@ -1,7 +1,7 @@
 import random
 from printBoard import printBoard
-from winChecker import winChecker,winnerPrinter
-from thinking_process import think,randomMove
+from winChecker import winChecker, winnerPrinter
+from thinking_process import think, randomMove
 
 #-----------------------------------------------------------------------------------------------
 print('+--------------------------------------------------------------------')
@@ -34,7 +34,7 @@ print('Choose: X or O?')
 while(1):
     player = input().upper()
     if(player != 'X' and player != 'O'):
-        print('Enter X or O only! Try Again.')
+        print('Enter X or O only! Please Try Again. :)')
     else:
         break
 
@@ -49,9 +49,9 @@ while(1):
         temp = input()
         temp = temp[:4] + temp[-1].capitalize()
         if(temp not in ipvalues):
-            print('Enter valid input! Try Again.')
+            print('Enter valid input! Please Try Again. :)')
         elif(board[temp] != ' '):
-            print('Already placed. Try again.')
+            print('Already placed. Please Try Again. :)')
         else:
             break
 
